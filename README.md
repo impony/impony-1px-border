@@ -1,6 +1,6 @@
-## impony-1px-border 0.1.0
+## impony-1px-border 0.2.0
 
-可以在项目中方便的使用1像素边框
+可以在项目中方便的使用 1px 边框
 
 [点击这里查看在线演示](http://impony.com/impony-1px-border/demo/index.html)
 
@@ -29,55 +29,78 @@ README.md 项目说明
 
 ### 具体 HTML 结构
 
+1. 可以都写成两层结构
+2. 可以写成单层结构（除了上下左右、左上、右下这三种情况）
+
 ``` html
-<div class="impony-1px-border impony-top">
+<div class="border-top-1px border-bottom-1px">
+    <div class="border-right-1px border-left-1px">
+        上下左右边框
+    </div>
+</div>
+```
+
+``` html
+<div class="border-top-1px">
     上边框
 </div>
 ```
 
 ``` html
-<div class="impony-1px-border impony-right">
+<div class="border-right-1px">
     右边框
 </div>
 ```
 
 ``` html
-<div class="impony-1px-border impony-bottom">
+<div class="border-bottom-1px">
     下边框
 </div>
 ```
 
 ``` html
-<div class="impony-1px-border impony-left">
+<div class="border-left-1px">
     左边框
 </div>
 ```
 
 ``` html
-<div class="impony-1px-border impony-top impony-bottom">
+<div class="border-top-1px border-bottom-1px">
     上下边框
 </div>
 ```
 
 ``` html
-<div class="impony-1px-border impony-right impony-left">
+<div class="border-right-1px border-left-1px">
     左右边框
 </div>
 ```
 
 ``` html
-<div class="impony-1px-border impony-top">
-    <div class="impony-1px-border impony-left">
-        左上边框，其它组合类似
+<div class="border-top-1px">
+    <div class="border-left-1px">
+        左上边框
     </div>
 </div>
 ```
 
 ``` html
-<div class="impony-1px-border impony-top impony-bottom">
-    <div class="impony-1px-border impony-right impony-left">
-        上下左右边框
+<div class="border-top-1px border-right-1px">
+    右上边框
+</div>
+```
+
+``` html
+<div class="border-bottom-1px">
+    <div class="border-right-1px">
+        右下边框
     </div>
+</div>
+```
+
+``` html
+<div class="border-bottom-1px border-left-1px">
+    左下边框
 </div>
 ```
 
