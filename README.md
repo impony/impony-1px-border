@@ -1,6 +1,7 @@
 ## impony-1px-border 0.1.0
 
 可以在项目中方便的使用1像素边框
+[点击这里查看在线演示](http://impony.com/impony-1px-border/demo)
 
 ### 项目结构说明
 
@@ -25,7 +26,7 @@ README.md 项目说明
 <link href="impony-1px-border.css" rel="stylesheet" />
 ```
 
-### 具体结构
+### 具体 HTML 结构
 
 ``` html
 <div class="impony-1px-border impony-top">
