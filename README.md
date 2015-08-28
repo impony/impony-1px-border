@@ -132,11 +132,17 @@
 ### 项目结构说明
 
 `demo/index.html` 示例
+
 `dist/impony-1px-border.css` 压缩后的 CSS
+
 `src/impony-1px-border.css` CSS 源文件
+
 `.gitignore Git` 项目忽略列表
+
 `gulpfile.js` 压缩脚本
+
 `package.json` 依赖关系
+
 `README.md` 项目说明
 
 ### 许可证
